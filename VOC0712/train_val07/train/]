@@ -1,0 +1,43 @@
+import glob
+#a  = glob.glob("./*.txt")
+#number_file = open("./number")
+
+def add(name,numbe,max_num):
+    print name
+    add_number = max_num - number
+    a = glob.glob("./*.txt")
+    for f in a:
+        #print "121"
+        if name == str(f).strip().split(".")[1][1:]:
+            file_from = open("/home/zhangjunyi/VOC0712/Main07/balance/train/result/"+"unique"+name+".txt")
+            file_to = open(f)
+            print file_from
+            for i in range(add_number):
+                  #file_from.readline
+                  file_to.write()
+                  pass      
+
+number_file = open("./number")
+vec = number_file.readlines()
+number = [[]for _ in vec]
+n = 0 
+
+for i in vec:
+    number[n] = int(i.strip().split()[1])
+    n = n + 1
+number.sort()
+
+for i in number_file.readlines():
+    name = str(i.strip().split()[0])[:4]
+    num = int(i.strip().split()[1])
+    print name,num
+    add(name,num,number[len(number)-1])
+
+
+'''
+for i in range (len(a)):
+    file = open(a[i])
+    s = a[i].split("/")[-1].strip()
+    f = open("number","a") 
+    f.write(s+"  "+str(len(file.readlines()))+"\n")
+'''     

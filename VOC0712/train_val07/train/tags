@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+a	run.py	/^a  = glob.glob(".\/*.txt")$/;"	v
+add	add.py	/^def add(name,numbe,max_num):$/;"	f
+f	run.py	/^    f = open("number","a") $/;"	v
+file	run.py	/^    file = open(a[i])$/;"	v
+n	add.py	/^    n = n + 1$/;"	v
+n	add.py	/^n = 0 $/;"	v
+name	add.py	/^    name = str(i.strip().split()[0])[:4]$/;"	v
+num	add.py	/^    num = int(i.strip().split()[1])$/;"	v
+number	add.py	/^number = [[]for _ in vec]$/;"	v
+number_file	add.py	/^number_file = open(".\/number")$/;"	v
+s	run.py	/^    s = a[i].split("\/")[-1].strip()$/;"	v
+vec	add.py	/^vec = number_file.readlines()$/;"	v
